@@ -1,0 +1,11 @@
+.nav-item {
+    font-size: 1.3rem;
+}
+
+.nav-link {
+    color: inherit;
+}
+
+.nav-link.active {
+    color: #777777;
+}

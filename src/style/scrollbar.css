@@ -1,0 +1,50 @@
+/* For WebKit browsers (e.g., Safari, Chrome) */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    border-radius: 1rem;
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #d1d1d1;
+  }
+  
+  /* For Firefox */
+  /* Note: Firefox uses a different syntax for scrollbar styling */
+  /* This example uses the older syntax (not supported in newer versions) */
+  scrollbar {
+    width: 12px;
+  }
+  
+  scrollbar-thumb {
+    border-radius: 1rem;
+    background: transparent;
+  }
+  
+  scrollbar-thumb:hover {
+    background: #d1d1d1;
+  }
+  
+  /* For Internet Explorer/Edge */
+  /* Note: Scrollbar styling is not widely supported in IE/Edge and may require non-standard prefixes */
+  *::-ms-scrollbar {
+    width: 12px;
+  }
+  
+  *::-ms-scrollbar-thumb {
+    border-radius: 1rem;
+    background: transparent;
+  }
+  
+  *::-ms-scrollbar-thumb:hover {
+    background: #d1d1d1;
+  }
+  

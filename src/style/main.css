@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Ubuntu:wght@300&display=swap');
+
+h2, h3, h4, h5 {
+    margin-bottom: 0 !important;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    font-family: 'Bangers', sans-serif;
+    margin-bottom: 0 !important;
+}
+
+.sidebar-toggle-button {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    top: 50vh;
+    left: -1px;
+    translate: 0% -50%;
+    box-shadow: rgb(96, 96, 96) 1px 0px 6px 2px;
+    background-color: white;
+    color: black;
+    opacity: 1;
+    z-index: 9999;
+    width: 2rem !important;
+    height: 2.8rem;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    cursor: pointer;
+}
+/* 
+[data-bs-theme="dark"] .sidebar-toggle-button {
+    background-color: #333333;
+    color: white;
+} */
+
+.container-main {
+    transition: margin 0.5s;
+    position: relative;
+}
+
+.switch-button {
+    position: fixed;
+    top: 1rem;
+    right: 2rem;
+}
+
+.ball {
+    z-index: 99;
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+    background-color: #777777;
+    top: 0.22rem;
+    left: 2.4rem;
+    transition: all 0.5s;
+}
